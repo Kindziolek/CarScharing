@@ -1,22 +1,33 @@
+
 .main_content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 80px;
 
 }
 
 .line_headline {
-    width: 100px;
-    height: 100px;
+    width: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .line {
-    background: #FF0000 0% 0% no-repeat padding-box;
+    background: #FF0000;
     padding: 0 15px;
-    position: relative;
     top: 10px;
+    width: 50px;
+    height: 3px;
+    background: #FF0000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #FF00004D;
+    border-radius: 8px;
+
 }
 
 .section-headline {
@@ -25,4 +36,7 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
 }

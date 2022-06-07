@@ -22,9 +22,7 @@
     top: 0;
 }
 
-
-
-.icon {
+.img_icon_logo {
     width: 31px;
 }
 
@@ -33,6 +31,7 @@
     justify-content: flex-start;
     align-items: center;
 }
+
 
 .logo:first-of-type {
     text-align: left;
@@ -61,11 +60,6 @@
 
 .logo_icon {
     display: flex;
-}
-
-img {
-    background-position: center;
-    background-size: cover;
 }
 
 .top_nav {
@@ -178,8 +172,3 @@ img {
     left: calc(50% - 27.5px);
 }
 
-
-/* 
-font-family: 'Nunito Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
